@@ -1,11 +1,11 @@
 package myRect
 
 type Rect struct {
-	len, wid int
+	Len, Wid int
 }
 
-func (rec Rect) calAndReturn() (int, int, int) {
-	return rec.len * rec.wid, rec.len, rec.wid
+func (rec Rect) CalAndReturn() (int, int, int) {
+	return rec.Len * rec.Wid, rec.Len, rec.Wid
 }
 
 // func main() {
